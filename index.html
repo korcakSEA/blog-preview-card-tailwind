@@ -21,16 +21,19 @@
     </div>
 
     <!-- Card Content -->
-    <div class="card__content mb-6">
-      <span class="tag">Learning</span>
-      <time datetime="21 Dec 2023">Published 21 Dec 2023</time>
-      <h3>HTML & CSS foundations</h3>
-      <p class="description">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+    <div class="card__content mb-6 flex flex-col gap-3">
+      <span class="tag py-1 px-3 bg-yellow w-fit font-extrabold leading-6 rounded-sm
+ text-xs md:text-sm">Learning</span>
+      <time class="font-medium leading-6 text-xs md:text-sm" datetime="21 Dec 2023">Published 21 Dec 2023</time>
+      <h3 class="text-gray-950 leading-6 font-extrabold text-xl md:text-2xl hover:text-yellow transition-colors duration-300 cursor-pointer">HTML & CSS foundations</h3>
+      <p class="description text-gray-500 text-sm md:text-base">These languages are the backbone of every website, defining structure, content, and
+        presentation.</p>
     </div>
-    
+
     <!-- Card Author -->
-    <div class="card_author">
-      Greg Hooper
+    <div class="card_author flex items-center gap-3">
+      <img src="./assets/images/image-avatar.webp" alt="author image" class="w-8">
+      <span class="text-gray-950 text-sm font-extrabold">Greg Hooper</span>
     </div>
   </div>
 
