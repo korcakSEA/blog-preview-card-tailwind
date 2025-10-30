@@ -1,2 +1,31 @@
 /* src/styles.css */
 @import "tailwindcss";
+
+/* figtree-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../assets/fonts/static/Figtree-Medium.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* figtree-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+
+
+@theme{
+
+  --font-figtree: 'Figtree';
+
+  --color-yellow: hsl(47, 88%, 63%);
+  --color-grey-950: hsl(0, 0%, 7%);
+
+  --shadow-custom:5px 5px 0 0;
+}
